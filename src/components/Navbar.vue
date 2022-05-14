@@ -23,6 +23,11 @@
             <!-- <router-link class="nav-link" to="/users">Users</router-link> -->
             <router-link class="nav-link" :to="{name: 'users'}">Users</router-link>
           </li>
+
+          <li class="nav-item">
+            <!-- <router-link class="nav-link" to="/users">Users</router-link> -->
+            <router-link class="nav-link" :to="{name: 'ciclo-vida'}">Ciclo Vida</router-link>
+          </li>
         </ul>
 
       </div>

@@ -18,6 +18,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "UserViewById"*/ '@/views/UserView.vue')
   },
   {
+    path: '/ciclo',
+    name: 'ciclo-vida',
+    component: () => import(/* webpackChunkName: "UserViewById"*/ '@/views/CicloDeVida.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'Error404',
     // path: '/:catchAll(.*)'
